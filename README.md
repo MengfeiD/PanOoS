@@ -16,7 +16,7 @@
     .
     <a href="https://yangkailun.com/"><strong>Kailun Yang†</strong></a>
     .
-    <a href="http://robotics.hnu.edu.cn/info/1071/1515.htm"><strong>Zhiyong Li†</strong></a>
+    <a href="http://robotics.hnu.edu.cn/info/1176/2960.htm"><strong>Zhiyong Li†</strong></a>
 </p>
 
 <div align="center">
