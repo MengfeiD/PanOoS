@@ -4,8 +4,6 @@
   <p align="center">
     <a href="https://github.com/MengfeiD"><strong>Mengfei Duan</strong></a>
     .
-    <a href="https://yangkailun.com/"><strong>Kailun Yang†</strong></a>
-    .
     <a href=""><strong>Yuheng Zhang</strong></a>
     .
     <a href="https://scholar.google.com/citations?user=j3364z8AAAAJ"><strong>Yihong Cao</strong></a>
@@ -16,9 +14,9 @@
     .
     <a href="https://github.com/jamycheung"><strong>Jiaming Zhang</strong></a>
     .
-    <a href="http://robotics.hnu.edu.cn/info/1071/1515.htm"><strong>Zhiyong Li†</strong></a>
+    <a href="https://yangkailun.com/"><strong>Kailun Yang†</strong></a>
     .
-    <a href="https://robotics.hnu.edu.cn/info/1071/1514.htm"><strong>Shutao Li</strong></a>
+    <a href="http://robotics.hnu.edu.cn/info/1071/1515.htm"><strong>Zhiyong Li†</strong></a>
 </p>
 
 <div align="center">
@@ -28,12 +26,12 @@
 
 ## PanOoS
 <div align=center>
-<img src="https://github.com/MengfeiD/PanOoS/blob/main/panOoS.png" >
+<img src="https://github.com/MengfeiD/PanOoS/blob/main/assets/panOoS.png" >
 </div>
 
 ## Framework
 <div align=center>
-<img src="https://github.com/MengfeiD/PanOoS/blob/main/overview.png" >
+<img src="https://github.com/MengfeiD/PanOoS/blob/main/assets/overview.png" >
 </div>
 
 ### Abstract
