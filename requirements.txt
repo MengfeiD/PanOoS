@@ -1,0 +1,15 @@
+cython
+scipy
+shapely
+timm
+h5py
+submitit
+scikit-image
+easydict
+albumentations
+fairscale
+zmq
+panopticapi
+webp
+ood-metrics
+open_clip_torch
