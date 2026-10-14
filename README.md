@@ -41,6 +41,7 @@ This repository provides:
 
 ## 📰 News
 
+* **[2026-10]** DenseOoS and QuadOoS are released.
 * **[2026-06]** Environment installation and dataset preparation instructions released.
 * **[2025-05]** Paper released on arXiv.
 * **[2025-05]** Repository initialized.

@@ -74,16 +74,16 @@ coco/
 ```
 
 
-## Preparing `coco_seg_train2017` for Outlier Exposure Fine-Tuning
+## Preparing `ood_seg_train2017` for Outlier Exposure Fine-Tuning
 
 Please following [Meta-OoD](https://github.com/robin-chan/meta-ood/tree/master/preparation) and use their script to generate the binary segmentation masks for potential OoD objects from COCO dataset to be pasted on the driving scenes. The chosen objects are such that they do not semantically overlap with the known classes in Cityscapes.
-Alternatively, the preprocessed `coco_seg_train2017` dataset can be downloaded from [here]().
+Alternatively, the preprocessed `ood_seg_train2017` dataset can be downloaded from [here](https://drive.google.com/file/d/1IcyzU75XEDXqARmuAZ4G1xvlljAbiDoC/view?usp=sharing).
 
 # Prepare OoD Segmentation Datasets for Evaluation
 
 Download the evaluation datasets and organize them according to the following directory structures.
 
-## [DenseOoS]()
+## [DenseOoS](https://drive.google.com/file/d/1EUXbsd_PqtWZlTbwZehUzpzffAo1D9cB/view?usp=sharing)
   ```
   DenseOoS/
     gtFine/
@@ -92,7 +92,7 @@ Download the evaluation datasets and organize them according to the following di
       val/
   ```
 
-## [QuadOoS]()
+## [QuadOoS](https://drive.google.com/file/d/1Ip7TvDHT1OqNsh-yl6MY6FQEpnT6QJck/view?usp=sharing)
   ```
   QuadOoS/
     images/
