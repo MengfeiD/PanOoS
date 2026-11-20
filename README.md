@@ -198,7 +198,65 @@ Follow the complete installation instructions in
 Follow [`docs/DATASET.md`](docs/DATASET.md) to download and organize
 DenseOoS, QuadOoS, and the auxiliary training datasets.
 
+### 4. Training, Fine-tuning and Evaluation
+All commands in [`docs/RUN.md`](docs/RUN.md). Quick start:
+```bash
+# train (4 GPUs)
+python train_net.py \
+--config-file ckpts/clip_1dl/config.yaml \
+--num-gpus 4 \
+OUTPUT_DIR  model_logs/clip_1dl/
+
+# fine-tuning
+python train_net.py \
+--config-file ckpts/clip_1dl_rba_ood_map_coco/config.yaml \
+--num-gpus 4 \
+OUTPUT_DIR  model_logs/clip_1dl_rba_ood_map_coco/
+
+# evaluation
+python evaluate_ood.py \
+--out_path results/ \
+--models_folder model_logs/ \
+--datasets_folder PATH_TO_DATASETS_ROOT
+```
 ---
+
+## 📦 Weights
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2" align="center">Model</th>
+      <th colspan="3" align="center">DenseOoS</th>
+      <th colspan="2" align="center">QuadOoS</th>
+      <th rowspan="2" align="center">config</th>
+      <th rowspan="2" align="center">ckpt</th>
+    </tr>
+    <tr>
+      <th align="center">AuPRC</th>
+      <th align="center">FPR<sub>95</sub></th>
+      <th align="center">mIoU</th>
+      <th align="center">AuPRC</th>
+      <th align="center">FPR<sub>95</sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">POS</td>
+      <td align="center">85.56</td>
+      <td align="center">0.45</td>
+      <td align="center">63.30</td>
+      <td align="center">48.13</td>
+      <td align="center">85.22</td>
+      <td align="center">
+        <a href="ckpts/clip_1dl_rba_ood_map_coco/config.yaml">config</a>
+      </td>
+      <td align="center">
+        <a href="https://drive.google.com/file/d/1SnJxVJYuRsqrL9IU2daMFfzPSxt_4ybB/view?usp=drive_link">model</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## 🤝 Acknowledgments
 

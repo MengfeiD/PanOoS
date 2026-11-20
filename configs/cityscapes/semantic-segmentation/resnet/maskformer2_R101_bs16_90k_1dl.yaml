@@ -1,0 +1,7 @@
+_BASE_: ../maskformer2_R101_bs16_90k.yaml
+MODEL:
+  MASK_FORMER:
+    DEC_LAYERS: 2
+  SEM_SEG_HEAD:
+    DEFORMABLE_TRANSFORMER_ENCODER_IN_FEATURES: ["res5"]
+  WEIGHTS: "pretrained/R-103.pkl"
