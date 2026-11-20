@@ -41,6 +41,7 @@ This repository provides:
 
 ## 📰 News
 
+* **[2026-11]** Code and checkpoint are released.
 * **[2026-10]** DenseOoS and QuadOoS are released.
 * **[2026-06]** Environment installation and dataset preparation instructions released.
 * **[2025-05]** Paper released on arXiv.
@@ -219,6 +220,7 @@ python evaluate_ood.py \
 --models_folder model_logs/ \
 --datasets_folder PATH_TO_DATASETS_ROOT
 ```
+
 ---
 
 ## 📦 Weights
@@ -258,16 +260,6 @@ python evaluate_ood.py \
   </tbody>
 </table>
 
-## 🤝 Acknowledgments
-
-This project builds upon several excellent open-source projects:
-
-* [Mask2Former](https://github.com/facebookresearch/Mask2Former)
-* [RbA](https://github.com/NazirNayal8/RbA)
-* [FC-CLIP](https://github.com/bytedance/fc-clip)
-
-We sincerely appreciate the tremendous efforts of their authors and contributors.
-
 ---
 
 ## 📚 Citation
@@ -278,7 +270,20 @@ If you find this work useful in your research, please consider citing the follow
 @article{duan2025panoramic,
   title   = {Panoramic Out-of-Distribution Segmentation},
   author  = {Duan, Mengfei and Zhang, Yuheng and Cao, Yihong and Teng, Fei and Luo, Kai and Zhang, Jiaming and Yang, Kailun and Li, Zhiyong},
-  journal = {arXiv preprint arXiv:2505.03539},
-  year    = {2025}
+  journal = {IEEE Transactions on Circuits and Systems for Video Technology},
+  year    = {2026},
+  publisher = {IEEE}
 }
 ```
+
+---
+
+## 🤝 Acknowledgments
+
+This project builds upon several excellent open-source projects:
+
+* [Mask2Former](https://github.com/facebookresearch/Mask2Former)
+* [RbA](https://github.com/NazirNayal8/RbA)
+* [FC-CLIP](https://github.com/bytedance/fc-clip)
+
+We sincerely appreciate the tremendous efforts of their authors and contributors.
